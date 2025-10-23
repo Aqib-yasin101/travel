@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Travel Recommendations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            background-color: #555;
+        }
+        
+        .nav-links a.active {
+            background-color: #007bff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .about-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .about-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .about-hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .company-info {
+            margin-bottom: 4rem;
+        }
+        
+        .company-info h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        
+        .company-info p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .team-section {
+            background-color: #f8f9fa;
+            padding: 3rem 2rem;
+            border-radius: 10px;
+        }
+        
+        .team-section h2 {
+            color: #333;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .team-member {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 4px solid #007bff;
+        }
+        
+        .team-member h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .team-member .role {
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .team-member p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .about-hero p {
+                font-size: 1rem;
+            }
+            
+            .company-info h2,
+            .team-section h2 {
+                font-size: 2rem;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <a href="travel_recommendation.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    
+    <div class="about-hero">
+        <h1>About Travel Recommendations</h1>
+        <p>Your trusted partner in discovering the world's most amazing destinations</p>
+    </div>
+    
+    <div class="container">
+        <section class="company-info">
+            <h2>Our Story</h2>
+            <p>Travel Recommendations was founded in 2020 with a simple yet powerful mission: to help travelers discover extraordinary destinations around the world. We believe that every journey should be memorable, and every destination should be carefully curated to provide the best possible experience.</p>
+            
+            <p>Our team of travel experts has visited over 50 countries and has personally experienced thousands of destinations. We combine our extensive travel knowledge with cutting-edge technology to provide you with personalized recommendations that match your interests, budget, and travel style.</p>
+            
+            <p>Whether you're planning a romantic getaway, a family adventure, a solo backpacking trip, or a luxury vacation, we have the expertise and resources to help you create unforgettable memories. Our recommendations are based on real experiences, honest reviews, and a deep understanding of what makes each destination special.</p>
+        </section>
+        
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Sarah Johnson">
+                    <h3>Sarah Johnson</h3>
+                    <div class="role">CEO & Founder</div>
+                    <p>Sarah founded Travel Recommendations after 15 years of exploring the world. She has visited over 40 countries and specializes in luxury travel and cultural experiences.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Michael Chen">
+                    <h3>Michael Chen</h3>
+                    <div class="role">Head of Operations</div>
+                    <p>Michael oversees our day-to-day operations and ensures every recommendation meets our high standards. He has a passion for adventure travel and outdoor activities.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="David Rodriguez">
+                    <h3>David Rodriguez</h3>
+                    <div class="role">Travel Specialist</div>
+                    <p>David is our expert on European destinations and cultural tourism. He speaks five languages and has lived in six different countries.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Emily Watson">
+                    <h3>Emily Watson</h3>
+                    <div class="role">Customer Experience Manager</div>
+                    <p>Emily ensures every customer has an exceptional experience with our service. She specializes in family travel and has helped plan over 500 family vacations.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="James Wilson">
+                    <h3>James Wilson</h3>
+                    <div class="role">Technology Director</div>
+                    <p>James leads our technology initiatives and ensures our platform provides the best user experience. He's passionate about using technology to enhance travel planning.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Lisa Thompson">
+                    <h3>Lisa Thompson</h3>
+                    <div class="role">Content Manager</div>
+                    <p>Lisa creates engaging content about destinations and travel tips. She's a professional photographer and has documented her travels in over 30 countries.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

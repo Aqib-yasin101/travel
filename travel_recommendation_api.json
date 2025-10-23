@@ -1,0 +1,104 @@
+{
+  "recommendations": [
+    {
+      "id": 1,
+      "name": "Santorini, Greece",
+      "description": "A stunning Greek island known for its white-washed buildings, blue domes, and breathtaking sunsets over the Aegean Sea. Perfect for romantic getaways with its beautiful beaches and charming villages.",
+      "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Greece",
+      "category": "Romantic Getaway",
+      "bestTime": "April - October",
+      "priceRange": "$$$"
+    },
+    {
+      "id": 2,
+      "name": "Kyoto, Japan",
+      "description": "Ancient capital of Japan featuring traditional temples, beautiful gardens, and the famous cherry blossom season. Home to over 2,000 temples and shrines including the famous Golden Pavilion.",
+      "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Japan",
+      "category": "Cultural Experience",
+      "bestTime": "March - May, September - November",
+      "priceRange": "$$"
+    },
+    {
+      "id": 3,
+      "name": "Banff National Park, Canada",
+      "description": "Breathtaking mountain landscapes, crystal-clear lakes, and world-class hiking trails in the Canadian Rockies. Perfect for outdoor enthusiasts and nature lovers.",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Canada",
+      "category": "Adventure",
+      "bestTime": "June - September",
+      "priceRange": "$$"
+    },
+    {
+      "id": 4,
+      "name": "Bali, Indonesia",
+      "description": "Tropical paradise with stunning beaches, ancient temples, lush rice terraces, and vibrant culture. Famous for its beautiful coastal areas and spiritual temples.",
+      "imageUrl": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Indonesia",
+      "category": "Beach & Relaxation",
+      "bestTime": "April - October",
+      "priceRange": "$"
+    },
+    {
+      "id": 5,
+      "name": "Machu Picchu, Peru",
+      "description": "Ancient Incan citadel perched high in the Andes Mountains, one of the New Seven Wonders of the World. A sacred site with incredible historical and spiritual significance.",
+      "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Peru",
+      "category": "Historical & Adventure",
+      "bestTime": "May - September",
+      "priceRange": "$$"
+    },
+    {
+      "id": 6,
+      "name": "Swiss Alps, Switzerland",
+      "description": "Majestic mountain peaks, pristine lakes, charming villages, and world-class skiing and hiking opportunities. Perfect for mountain lovers and outdoor enthusiasts.",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Switzerland",
+      "category": "Mountain & Adventure",
+      "bestTime": "December - March, June - September",
+      "priceRange": "$$$"
+    },
+    {
+      "id": 7,
+      "name": "Maldives",
+      "description": "Tropical paradise with crystal-clear turquoise waters, pristine white sand beaches, and luxurious overwater bungalows. Perfect for beach lovers and honeymooners.",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Maldives",
+      "category": "Beach & Relaxation",
+      "bestTime": "November - April",
+      "priceRange": "$$$"
+    },
+    {
+      "id": 8,
+      "name": "Angkor Wat, Cambodia",
+      "description": "Magnificent temple complex and the largest religious monument in the world. Features stunning ancient temples and intricate stone carvings dating back to the 12th century.",
+      "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Cambodia",
+      "category": "Cultural Experience",
+      "bestTime": "November - March",
+      "priceRange": "$"
+    },
+    {
+      "id": 9,
+      "name": "Maui, Hawaii",
+      "description": "Beautiful Hawaiian island known for its stunning beaches, volcanic landscapes, and world-class surfing. Features both black sand and golden sand beaches.",
+      "imageUrl": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "United States",
+      "category": "Beach & Relaxation",
+      "bestTime": "April - October",
+      "priceRange": "$$$"
+    },
+    {
+      "id": 10,
+      "name": "Bagan, Myanmar",
+      "description": "Ancient city with over 2,000 Buddhist temples and pagodas spread across the plains. One of the most spectacular temple sites in Southeast Asia.",
+      "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "country": "Myanmar",
+      "category": "Cultural Experience",
+      "bestTime": "October - March",
+      "priceRange": "$"
+    }
+  ]
+}
